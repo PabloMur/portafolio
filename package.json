@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "git@github.com:PabloMur/portafolio.git",
   "author": "Pablo Murillo <pablomurillo.sp@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir build"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  }
 }
